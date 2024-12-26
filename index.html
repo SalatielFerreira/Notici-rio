@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal de Notícias</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Portal de Notícias</div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Internacional</a></li>
+                <li><a href="#">Brasil</a></li>
+                <li><a href="#">Tecnologia</a></li>
+                <li><a href="#">Esportes</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="news">
+            <h2>Canal de Notícias</h2>
+
+            <div class="news-article">
+                <h3>Noticias Diarias </h3>
+                <p>Resumo da notícia ... <span class="read-more" onclick="toggleArticle(1)">Leia mais</span></p>
+                <p class="full-text" id="article-1">Notícia 1</p>
+            </div>
+
+            <div class="news-article">
+                <h3>Canal de Notícias </h3>
+                <p>Resumo da notícia ... <span class="read-more" onclick="toggleArticle(2)">Leia mais</span></p>
+                <p class="full-text" id="article-2">Canal 2</p>
+            </div>
+
+            <div class="news-article">
+                <h3>Portal de Notícia </h3>
+                <p>Resumo da notícia ... <span class="read-more" onclick="toggleArticle(3)">Leia mais</span></p>
+                <p class="full-text" id="article-3">Portal 3</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy;Create. Develop. Salatiel Alves Ferreira Neto</p>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
